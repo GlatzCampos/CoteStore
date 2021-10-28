@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cntMargin,
+nav {
+  padding-right: 5.94%;
+  padding-left: 5.94%;
+}
+
+nav {
+  background-color: #4fcf5f;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  line-height: 70px;
+}
+
+nav h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+nav button {
+  margin-top: 15px;
+  width: 292px;
+  height: 40px;
+  background: none;
+  border: 3px solid #181818;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+nav button:hover {
+  transform: scale(1.02);
+}
+
+.vistoCotemig {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 30%;
+  background-color: #f5f5f5;
+  border-radius: 50px 0px 0px 50px;
+  box-shadow: -4px 6px 5px 5px #dfdfdf;
+}
+
+@media screen and (max-width: 1346px) {
+  .vistoCotemig {
+    margin-left: 20%;
+  }
+}
+
+div h1 {
+  color: #4fcf5f;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+.vistoCotemig > div {
+  font-family: "Poppins", sans-serif;
+  color: #181818;
+  text-align: left;
+  margin-top: 50px;
+  width: 435px;
+  align-content: center;
+}
+
+.vistoCotemig {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vistoCotemig > div > p {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 25px;
+}
+
+.icons {
+  width: 100%;
+  height: 86px;
+  background-color: #2c2c2c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c {
+  display: flex;
+}
+
+.c span {
+  align-self: center;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.b {
+  display: flex;
+}
+
+.b span {
+  align-self: center;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.p {
+  display: flex;
+}
+
+.p span {
+  align-self: center;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.porque ul {
+  display: flex;
+  flex-flow: wrap column;
+  align-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+ul > li {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.explication {
+  display: flex;
+  justify-content: space-between;
+  background-color: #32b943;
+  align-items: center;
+}
+
+.exp1 {
+  width: 400px;
+  height: 270px;
+  left: 95px;
+  top: 1189px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+
+  color: #fffffe;
+}
+
+.explication img {
+  width: 417px;
+  height: 250px;
+  left: 583px;
+  top: 1200px;
+}
+
+.exp2 {
+  width: 417px;
+  height: 270px;
+  left: 1088px;
+  top: 1189px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+
+  color: #fffffe;
+}
+
+.acesso {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.acesso h1 {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.acesso button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  width: 262px;
+  height: 60px;
+  background: #4fcf5f;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.acesso button:hover {
+  letter-spacing: 2px;
+}
+
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 243px;
+  width: 100%;
+  background: #2c2c2c;
+}
+
+footer h1 {
+  font-family: "Varela Round", sans-serif;
+  padding-top: 40px;
+  color: #4fcf5f;
+  font-weight: 500;
+}
+
+footer ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+footer li {
+  transition: all ease 0.3s;
+}
+
+footer li:hover {
+  transform: scale(1.1);
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #f5f5f5;
+}
+
+.pintar {
+  background: #2c2c2c;
+  color: #2c2c2c;
+}
+
+footer a {
+  text-decoration: none;
+}
